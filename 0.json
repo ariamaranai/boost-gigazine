@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "resourceTypes": ["image"],
+      "requestMethods": ["get"],
+      "domainTypes": "firstParty",
+      "urlFilter": "|https://i.gzn.jp/img/gsc/payment/"
+    }
+  },
+  {
+    "id": 2,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "resourceTypes": ["sub_frame","stylesheet"],
+      "requestMethods": ["get"],
+      "initiatorDomains" : ["gigazine.net"]
+    }
+  },
+  {
+    "id": 3,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "resourceTypes": ["image"],
+      "requestMethods": ["get"],
+      "domainTypes": "firstParty",
+      "urlFilter": "|https://mt.gigazine.net/matomo.php"
+    }
+  }
+]
