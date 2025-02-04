@@ -1,20 +1,24 @@
+#URLClip,
 #header-social-button-box,
 #latest,
 #sub,
 #subtop,
+.article,
 .date-parent,
 .defs,
 .p-category,
+.rlcontents-s,
 .sbn,
-footer {
+footer,
+#banner-ef ~ * {
   display: none !important
 }
+#main {
+  all: unset !important
+}
 .card {
-  display: flex;
+  display: flex
 }
 a {
   display: contents !important
-}
-h2 { 
-  font-size: 16px !important;
 }
