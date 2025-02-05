@@ -17,8 +17,9 @@ footer,
   all: unset !important
 }
 .card {
-  display: flex
+  display: flex;
+  margin: 8px 0;
 }
-a {
+.thumb, a, span {
   display: contents !important
 }
