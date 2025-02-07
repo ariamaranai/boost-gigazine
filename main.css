@@ -1,4 +1,5 @@
 #URLClip,
+#donation_wrapper,
 #header-social-button-box,
 #latest,
 #sub,
@@ -20,6 +21,12 @@ footer,
   display: flex;
   margin: 8px 0;
 }
-.thumb, a, span {
+#article,
+a,
+b,
+p,
+span,
+section,
+time {
   display: contents !important
 }

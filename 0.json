@@ -31,7 +31,7 @@
       "resourceTypes": ["image"],
       "requestMethods": ["get"],
       "domainTypes": "firstParty",
-      "urlFilter": "|https://mt.gigazine.net/matomo.php"
+      "urlFilter": "matomo.php?idsite=1&rec=1|"
     }
   }
 ]
