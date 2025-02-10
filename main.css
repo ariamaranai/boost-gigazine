@@ -11,7 +11,8 @@
 .rlcontents-s,
 .sbn,
 footer,
-#banner-ef ~ * {
+#banner-ef ~ *,
+.logo ~ * {
   display: none !important
 }
 #main {
@@ -19,9 +20,10 @@ footer,
 }
 .card {
   display: flex;
-  margin: 8px 0;
+  margin: 8px 0
 }
 #article,
+#header,
 a,
 b,
 p,
