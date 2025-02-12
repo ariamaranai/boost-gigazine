@@ -1,6 +1,6 @@
 #URLClip,
 #donation_wrapper,
-#header-social-button-box,
+#header,
 #latest,
 #sub,
 #subtop,
@@ -11,8 +11,8 @@
 .rlcontents-s,
 .sbn,
 footer,
-#banner-ef ~ *,
-.logo ~ * {
+#banner-ef ~ *
+{
   display: none !important
 }
 #main {
@@ -23,7 +23,6 @@ footer,
   margin: 8px 0
 }
 #article,
-#header,
 a,
 b,
 p,
