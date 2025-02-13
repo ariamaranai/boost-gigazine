@@ -1,4 +1,6 @@
+::-webkit-scrollbar,
 #URLClip,
+#donate_footer,
 #donation_wrapper,
 #header,
 #latest,
@@ -15,14 +17,8 @@ footer,
 {
   display: none !important
 }
-#main {
-  all: unset !important
-}
-.card {
-  display: flex;
-  margin: 8px 0
-}
 #article,
+div,
 a,
 b,
 p,
@@ -30,4 +26,7 @@ span,
 section,
 time {
   display: contents !important
+}
+#main {
+  all: unset !important
 }
