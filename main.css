@@ -1,3 +1,13 @@
+#article,
+div,
+a,
+b,
+p,
+span,
+section,
+time {
+  display: contents !important
+}
 ::-webkit-scrollbar,
 #URLClip,
 #donate_footer,
@@ -16,16 +26,6 @@ footer,
 #banner-ef ~ *
 {
   display: none !important
-}
-#article,
-div,
-a,
-b,
-p,
-span,
-section,
-time {
-  display: contents !important
 }
 #main {
   all: unset !important
