@@ -1,32 +1,23 @@
-#article,
-div,
-a,
-b,
-p,
-span,
-section,
-time {
-  display: contents !important
-}
 ::-webkit-scrollbar,
-#URLClip,
-#donate_footer,
-#donation_wrapper,
-#header,
-#latest,
-#sub,
-#subtop,
-.article,
 .date-parent,
-.defs,
-.p-category,
-.rlcontents-s,
-.sbn,
-footer,
-#banner-ef ~ *
-{
-  display: none !important
+body > :not(#main) {
+  display: none !important;
 }
-#main {
-  all: unset !important
+:root {
+  color-scheme: dark;
+}
+.card {
+  display: flex;
+  gap: 8px;
+}
+a,
+span,
+section {
+  display: contents !important;
+}
+img {
+  width: 280px;
+}
+h2 {
+  font-size: 18px;
 }
