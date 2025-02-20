@@ -1,23 +1,25 @@
 ::-webkit-scrollbar,
+#Google_Index_Middle,
 .date-parent,
+.sbn,
 body > :not(#main) {
-  display: none !important;
+  display: none !important
 }
 :root {
-  color-scheme: dark;
+  color-scheme: dark
 }
 .card {
   display: flex;
-  gap: 8px;
+  gap: 8px
 }
 a,
 span,
 section {
-  display: contents !important;
+  display: contents
 }
 img {
-  width: 280px;
+  width: 280px
 }
 h2 {
-  font-size: 18px;
+  font-size: 18px
 }
