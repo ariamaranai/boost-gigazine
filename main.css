@@ -3,7 +3,7 @@
 .date-parent,
 .sbn,
 body > :not(#main) {
-  display: none !important
+  display: none
 }
 :root {
   color-scheme: dark
