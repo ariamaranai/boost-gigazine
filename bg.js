@@ -1,8 +1,9 @@
-chrome.contentSettings.javascript.get({ primaryUrl: "https://gigazine.net" }, async e => (
-  e.setting == "allow" && chrome.contentSettings.javascript.set({
-    primaryPattern: "https://gigazine.net/",
-    setting: "block"
-  }),
+chrome.runtime.onInstalled.addListener(async () => (
+  (await chrome.contentSettings.javascript.get({ primaryUrl: "https://gigazine.net" })).setting == "allow" &&
+    chrome.contentSettings.javascript.set({
+      primaryPattern: "https://gigazine.net/*",
+      setting: "block"
+    }),
   await chrome.userScripts.unregister(),
   chrome.userScripts.register([{
     id: "0",
