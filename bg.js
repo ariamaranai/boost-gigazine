@@ -8,6 +8,7 @@ chrome.runtime.onInstalled.addListener(async () => (
   chrome.userScripts.register([{
     id: "0",
     js: [{ code: "{let g=document.images,i=g.length,p,s;while((s=(p=g[--i]).dataset.src)&&(p.src=s),i);}" }],
-    matches: ["https://gigazine.net/", "https://gigazine.net/P*"]
+    matches: ["https://gigazine.net/", "https://gigazine.net/P*"],
+    runAt: "document_end"
   }])
 ));
