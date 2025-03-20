@@ -11,6 +11,9 @@
     "declarativeNetRequest",
     "userScripts"
   ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
   "declarative_net_request": {
     "rule_resources": [{
       "id": "0",
