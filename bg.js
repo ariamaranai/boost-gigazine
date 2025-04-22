@@ -9,7 +9,7 @@ chrome.runtime.onInstalled.addListener(() => (
   ),
   chrome.userScripts.register([{
     id: "0",
-    js: [{ code: "{open=()=>alert(1);let g=document.images,i=g.length,p,s;while((s=(p=g[--i]).dataset.src)&&(p.src=s),i);}" }],
+    js: [{ code: "{let g=document.images,i=g.length,p,s;while((s=(p=g[--i]).dataset.src)&&(p.src=s),i);}" }],
     matches: ["https://gigazine.net/", "https://gigazine.net/P*"],
     runAt: "document_end"
   }])
