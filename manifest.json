@@ -26,7 +26,7 @@
   },
   "content_scripts": [{
     "css": ["main.css"],
-    "matches": ["https://gigazine.net/"],
+    "matches": ["https://gigazine.net/", "https://gigazine.net/P*"],
     "run_at": "document_start"
   }]
 }
