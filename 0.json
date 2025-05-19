@@ -9,7 +9,8 @@
       "resourceTypes": ["image"],
       "requestMethods": ["get"],
       "domainTypes": "firstParty",
-      "urlFilter": "|https://i.gzn.jp/img/gsc/payment/"
+      "urlFilter": "|https://i.gzn.jp/img/gsc/payment/",
+      "isUrlFilterCaseSensitive": true
     }
   },
   {
@@ -34,7 +35,8 @@
       "resourceTypes": ["image"],
       "requestMethods": ["get"],
       "domainTypes": "firstParty",
-      "urlFilter": "matomo.php?idsite=1&rec=1|"
+      "urlFilter": "matomo.php?idsite=1&rec=1|",
+      "isUrlFilterCaseSensitive": true
     }
   }
 ]
