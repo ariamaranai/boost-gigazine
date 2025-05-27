@@ -14,7 +14,7 @@ body > :not(#main) {
   display: flex;
   gap: 8px
 }
-a,
+:any-link,
 span {
   display: contents
 }
