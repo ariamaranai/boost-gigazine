@@ -2,7 +2,8 @@ chrome.runtime.onInstalled.addListener(() => (
   chrome.contentSettings.javascript.get({
     primaryUrl: "https://gigazine.net"
   }, details =>
-    details.setting == "allow" && chrome.contentSettings.javascript.set({
+    details.setting == "allow" &&
+    chrome.contentSettings.javascript.set({
       primaryPattern: "https://gigazine.net/*",
       setting: "block"
     })
