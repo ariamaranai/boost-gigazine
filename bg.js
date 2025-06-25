@@ -11,7 +11,7 @@ chrome.runtime.onStartup.addListener(() => {
     }])
   );
 });
-chrome.runtime.onInstalled.addListener(() =>
+chrome.runtime.onInstalled.addListener(() => (
   chrome.contentSettings.javascript.get({
     primaryUrl: "https://gigazine.net"
   }, details =>
@@ -20,5 +20,6 @@ chrome.runtime.onInstalled.addListener(() =>
       primaryPattern: "https://gigazine.net/*",
       setting: "block"
     })
-  )
-);
+  ),
+  chrome.runtime.onStartup.dispatch()
+));
