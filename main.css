@@ -19,7 +19,7 @@ span {
   display: contents
 }
 section {
-  margin-block: 60px
+  margin: 60px+0
 }
 img {
   width: 180px;
